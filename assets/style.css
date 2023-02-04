@@ -1,55 +1,67 @@
 body {
-    background: white;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
+  background: white;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
 }
 
 header {
-    width: 100%;
-    height: 50px;
-    background-color: teal;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0%;
+  width: 100%;
+  height: 50px;
+  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0%;
 }
 
 main {
-    padding-top: 50px;
-  }
+  padding-top: 50px;
+}
 
 nav {
-    width: 50%;
-    max-width: 300px;
-    height: 50px;
-  }
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
 
-  nav > ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-inline-start: 0;
-    margin-block: 0;
-    height: 100%;
-  }
+nav>ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
 
-  nav > ul > li {
-    color: black;
-    margin: 0 0.2rem;
-    padding: 0.2rem;
-    display: block;
-  }
+nav>ul>li {
+  color: black;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
 
-  nav > ul > li:hover {
-    background-color: #dfdfe2;
-    color: #1b1b32;
-    cursor: pointer;
-  }
-  
-  li > a {
-    color: inherit;
-    text-decoration: none;
-  }
+nav>ul>li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+li>a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  display: flex;
+  font-size: large;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.avatar {
+  padding-top: 200px;
+  background-image: url(https://i.pinimg.com/originals/8e/4f/5b/8e4f5b046fe1c7c9bf435eb242da5165.gif);
+}
