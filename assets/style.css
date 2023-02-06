@@ -1,7 +1,7 @@
 body {
   background: white;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: ;
   margin: 0;
 }
 
@@ -18,6 +18,7 @@ header {
 
 main {
   padding-top: 50px;
+  background-color: teal;
 }
 
 nav {
@@ -54,14 +55,26 @@ li>a {
   text-decoration: none;
 }
 
+h2, h3, h4 {
+  font-size: 70px;
+}
+
 p {
   display: flex;
   font-size: large;
   padding-left: 100px;
   padding-right: 100px;
 }
-
-.avatar {
-  padding-top: 200px;
-  background-image: url(https://i.pinimg.com/originals/8e/4f/5b/8e4f5b046fe1c7c9bf435eb242da5165.gif);
+section {
+  background-color: tan;
+  padding-bottom: 50px;
+  padding-top: 10px;
 }
+.row {
+  font-size: 40px;
+}
+ .avatar { 
+  background-color: tan;
+ }
+
+
