@@ -55,7 +55,9 @@ li>a {
   text-decoration: none;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   font-size: 70px;
 }
 
@@ -65,16 +67,39 @@ p {
   padding-left: 100px;
   padding-right: 100px;
 }
+
 section {
   background-color: tan;
   padding-bottom: 50px;
   padding-top: 10px;
 }
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
 .row {
   font-size: 40px;
 }
- .avatar { 
+
+.avatar {
   background-color: tan;
- }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
 
-
+.avatar img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
