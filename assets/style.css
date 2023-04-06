@@ -112,6 +112,7 @@ img {
 
 .card {
   height: 400px;
+  width: 200px;
   position: relative;
   padding: 20px;
   box-sizing: border-box;
